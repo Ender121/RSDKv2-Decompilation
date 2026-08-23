@@ -1,7 +1,7 @@
 name: Build Sonic Nexus for multiple platforms
 
 on:
-  push:
+  push:workflow_dispatch:
     branches:
       - master
       - continuous-delivery
