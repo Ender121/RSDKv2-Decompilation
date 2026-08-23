@@ -2,6 +2,7 @@ name: Build RSDKv2
 
 on:
   push:
+  workflow_dispatch:
     paths:
       - android/**
       - dependencies/**
